@@ -1,7 +1,8 @@
 <!-- Navbar -->
+
 <header class="navbar">
   <div class="logo">Priyal Vyas</div>
-  <nav>
+  <nav style="margin-right: 8px">
     <ul class="nav-links" [class.active]="menuOpen">
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
@@ -96,41 +97,47 @@
   </div>
 </section>
 
-<!-- Professional Journey -->
-<section id="journey" class="journey-section">
+<!-- ===== Journey (Timeline) ===== -->
+<!-- ===== Journey (Vertical Timeline) ===== -->
+<section id="journey" class="journey">
   <h2 class="title">🚀 Professional Journey</h2>
-  <div class="journey-container">
-    <div class="journey-card">
+
+  <div class="timeline-container">
+    <div class="timeline-item">
       <h3>System Engineer</h3>
-      <p class="company">Tata Consultancy Service</p>
+      <p class="company">Tata Consultancy Services</p>
       <p class="year">2022 – Present</p>
-      <p class="details">
+      <p>
         Building scalable microservices with Spring Boot, integrating Kafka, and
-        delivering Angular web apps with focus on performance & UX.
+        delivering Angular web apps with a focus on performance & UX.
       </p>
     </div>
-    <div class="journey-card">
+
+    <div class="timeline-item">
       <h3>Intern</h3>
       <p class="company">Kreartors Pvt Ltd</p>
       <p class="year">2021 – 2022</p>
-      <p class="details">
+      <p>
         Developed responsive web pages using HTML, CSS, JavaScript, and
-        Bootstrap, ensuring cross-browser compatibility and delivering
-        high-quality designs on time.
+        Bootstrap; ensured cross-browser compatibility and timely delivery.
       </p>
     </div>
   </div>
 </section>
 
-<!-- Education -->
-<section id="education" class="education-section">
+<!-- ===== Education (Vertical Timeline) ===== -->
+<section id="education" class="education">
   <h2 class="title">🎓 Education</h2>
-  <div class="education-container">
-    <div class="education-card" *ngFor="let edu of education">
-      <h3 class="degree">{{ edu.degree }}</h3>
-      <p class="institution">{{ edu.institution }}</p>
-      <p class="year">{{ edu.year }}</p>
-      <p class="details">{{ edu.details }}</p>
+
+  <div class="timeline-container">
+    <div class="timeline-item">
+      <h3>Bachelor of Engineering in Computer Science</h3>
+      <p class="company">Mumbai University</p>
+      <p class="year">2018 – 2022</p>
+      <p>
+        Studied core CS subjects including DSA, DBMS, OS, Computer Networks, and
+        Software Engineering.
+      </p>
     </div>
   </div>
 </section>
