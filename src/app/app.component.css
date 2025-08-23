@@ -1,7 +1,7 @@
 /* ===== Global Styles ===== */
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   background: #0f172a; /* Navy Blue background */
   color: #ffffff;
   line-height: 1.6;
@@ -56,6 +56,9 @@ a {
   margin: 1rem auto;
   color: #e2e8f0;
   font-size: 1.1rem;
+}
+.about-info i {
+  color: #0ea5e9;
 }
 
 /* ===== Skills Section ===== */
@@ -606,14 +609,14 @@ a {
 }
 
 .nav-links li a {
-  color: white;
+  color: #0ea5e9;
   text-decoration: none;
   font-size: 1rem;
   transition: color 0.2s;
 }
 
 .nav-links li a:hover {
-  color: #0ea5e9; /* Gold hover */
+  color: #fff; /* Gold hover */
 }
 
 /* Hamburger button (hidden by default) */
@@ -656,6 +659,7 @@ a {
 body {
   margin: 0;
   padding-top: 70px; /* same as navbar height */
+    font-family: 'Montserrat', sans-serif;
 }
 .hero {
   position: relative;
